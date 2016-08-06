@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+/*
+ * Base structure
+ */
+ 
+* {
+	outline: 0 none !important;
+} 
+html,body {
+	height: 100%;
+	background-color: #333;
+	-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+	-moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+	box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+	font-size: 16px;
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	
+}
+
+.margin-t-b-10 {
+	margin: 10px 0;
+}
+
+.padding-top-20 {
+	padding-top: 20px;
+}
+
+.font-size-20 {
+	font-size: 20px;	
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.jumbotron {
+	background: transparent;
+	padding-bottom: 0;
+}
+
+.jumbotron p {
+	font-size: 24px;
+}
+
+.custom-container {
+	background: #3e6aae;
+	padding-bottom: 30px;
+	text-align: left;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.custom-container input[type="text"] {
+	color: #000000;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	padding-left: 10px;
+	border: 0 none;
+	border-radius: 4px;
+}
+
+.alternate-field {
+	background: transparent;
+	border: 0 none;
+	color: #FFFFFF !important;
+	padding-top: 5px;
+}
+
+.custom-btn-effect {
+	font-size: 22px;	
+}
+
+#result{
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+.resultdays {
+	font-size: 24px;
+	color: #3e6aae;
+}
+
+.calender-icon {
+	position: relative;
+	right: 30px;
+    color: #3E6AAE;
+    opacity: 0.6;
+}
+
+.errors p {
+	margin-bottom: 0;
+}
