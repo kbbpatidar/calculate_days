@@ -1,8 +1,20 @@
-# calculate_days
-This calculator calculates the number of days between two dates without using PHP core functions.
+# calculate_days - (Using Codeigniter)
 
-I have been given challange to create interface for user in PHP to calculate date difference but WITHOUT using core functions of PHP.
+*** This calculator calculates the number of days between two dates without using PHP core functions.***
 
-I figure it out two ways to do it. 
+General: 
 
-Please find two different solution to this problem. I hope this might help you.
+I have been challanged to create interface for user in PHP to calculate date difference WITHOUT using core functions of PHP. I was given liberty to choose any MVC so I choose (actually I love) codeigniter. 
+
+** CODE directory consist whole codeigniter with my own custom code. 
+
+
+Development:
+
+I figure it out two ways to do it. Please find two different solution to this problem. I hope this might help you.
+
+Controller:  code\application\controllers\Datediff.php
+Model: As I dont need to store anything on database side so I haven't created model.
+View: code\application\views\date_diff.php
+
+## Feel free to contact if anything is not clear.
